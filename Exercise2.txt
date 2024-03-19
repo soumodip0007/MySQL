@@ -1,0 +1,12 @@
+1. 1:Virat:Batsman:Cricket
+2. 1:Virat Kohli:Batsman:Cricket
+3. 2:Leonel:Stricker:Football
+4. C1 Virat
+5. F2 Leonel
+
+Solution
+1. SELECT CONCAT_WS(':', emp_id, fname, designation, department) FROM employees WHERE emp_id=1;
+2. SELECT CONCAT_WS(':', emp_id, CONCAT(fname,' ', lname), designation, department) FROM employees WHERE emp_id=1;
+3. SELECT CONCAT_WS(':', emp_id, fname, UPPER(designation), department) FROM employees WHERE emp_id=2;
+4. SELECT CONCAT(LEFT(department, 1), emp_id), fname FROM employees WHERE emp_id=1;
+   SELECT CONCAT(LEFT(department, 1), emp_id), fname FROM employees WHERE emp_id=2;
