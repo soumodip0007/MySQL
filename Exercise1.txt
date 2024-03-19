@@ -1,0 +1,15 @@
+1. Create a database bank_db
+2. Create a table employees columns - emp_id, name, designation, department
+3. emp_id column should not allow duplicate and null values. Value of emp_id    column auto increment.
+4. name column should not contain null value
+5. designation column should have default value as 'Probation'
+
+Solution-
+ CREATE DATABASE bank_db;
+ USE bank_db;
+ CREATE TABLE employees (
+     emp_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+     fname VARCHAR(50) NOT NULL,
+     designation VARCHAR(50) NOT NULL DEFAULT 'Probation',
+     department VARCHAR(50) NOT NULL 
+   );
