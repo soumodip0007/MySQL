@@ -1,3 +1,6 @@
 1. Basics of SQL
 2. String function in SQL
 3. Distinct
+4. Order By
+5. Like
+6. Limit
