@@ -4,3 +4,5 @@
 4. Order By
 5. Like
 6. Limit
+7. Count Function
+8. Group By

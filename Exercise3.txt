@@ -1,0 +1,12 @@
+1. Find Different type of departments in database.
+2. Display records with High-low salary.
+3. How to see only 2 records from a table?
+4. Show records where first name start with letter 'V'.
+5. Show records where length of the lname is 5 character.
+
+Solution
+1. SELECT DISTINCT department FROM employees;
+2. SELECT * FROM employees ORDER BY salary DESC;
+3. SELECT * FROM employees limit 3;
+4. SELECT * FROM employees WHERE fname LIKE "V%";
+5. SELECT * FROM employees WHERE lname LIKE "_____";

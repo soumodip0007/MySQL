@@ -1,0 +1,16 @@
+1. Find total no of employees in database.
+2. Find no of employees in each department.
+3. Find lowest salary paying.
+4. Find highest salary paying.
+5. Find total salary paying in Cricket department.
+6. Average salary paying in each department.
+
+Solution
+
+1. SELECT COUNT(emp_id) FROM employees;
+2. SELECT department, COUNT(emp_id) FROM employees GROUP BY department;
+3. SELECT MIN(salary) FROM employees;
+4. SELECT MAX(salary) FROM employees;
+   SELECT * FROM employees WHERE salary=(SELECT MAX(salary) FROM employees);
+5. SELECT SUM(salary) FROM employees WHERE department="Cricket";
+6. SELECT department, AVG(salary) FROM employees GROUP BY department;
