@@ -1,0 +1,15 @@
+1. Print the current time(HH:MM:SS).
+2. Print the current date(yyyy-mm-dd).
+3. Print current day of week(Monday, Tuesday,....).
+4. What is the use case of CHAR datatype?
+5. Which datatype can be used to store value 155.455?
+6. Display date in format - dd:mm:yyyy & July 26th at 12:00:05
+
+Solution
+1. SELECT CURTIME();
+2. SELECT CURDATE();
+3. SELECT DAYNAME(NOW());
+4. The CHAR datatype in SQL is used to store fixed-length character strings.
+5. DECIMAL, FLOAT, DOUBLE
+6. SELECT DATE_FORMAT(NOW(), '%d:%m%y');
+   SELECT DATE_FORMAT(NOW(), '%M %D at %T');
