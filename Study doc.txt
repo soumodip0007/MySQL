@@ -7,3 +7,4 @@
 7. Count Function
 8. Group By
 9. Data Types
+10. Applying Condition
