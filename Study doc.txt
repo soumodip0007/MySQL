@@ -6,3 +6,4 @@
 6. Limit
 7. Count Function
 8. Group By
+9. Data Types
