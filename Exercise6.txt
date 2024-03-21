@@ -1,0 +1,19 @@
+1. Find employees whose salary are between 30000 to 40000.
+2. Find employees whose first name starts with 'S' OR 'A'.
+3. Find employee whose salary=25000 and department should be 'Software Development'.
+4. Find employees from following department Digital Marketing, Sales, Cyber Security.
+
+Solution.
+1. SELECT * FROM employees WHERE salary BETWEEN 30000 AND 40000;
+2. SELECT * FROM employees WHERE name LIKE "%S" OR name LIKE "%A";
+3. SELECT * FROM employees WHERE salary=35000 AND department='Software Development'; 
+4. SELECT * FROM employees WHERE department IN ('Digital Marketing', 'Sales', 'Cyber Security');
+
+     SELECT
+        name,
+        salary,
+        CASE
+          WHEN salary !=0 THEN salary/80
+        END AS 'Salary In Dollars'
+     FROM
+        employees;
