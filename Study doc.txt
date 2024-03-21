@@ -9,3 +9,4 @@
 9. Data Types
 10. Applying Condition
 11. Constraints
+12. Modify queries
