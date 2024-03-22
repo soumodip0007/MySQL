@@ -7,6 +7,8 @@
 7. Count Function
 8. Group By
 9. Data Types
-10. Applying Condition
-11. Constraints
-12. Modify queries
+10. Relational Operators
+11. Applying Condition
+12. Constraints
+13. Modify queries
+14. Relationships
