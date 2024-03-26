@@ -12,3 +12,4 @@
 12. Constraints
 13. Modify queries
 14. Relationships
+15. Joins
