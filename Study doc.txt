@@ -13,3 +13,7 @@
 13. Modify queries
 14. Relationships
 15. Joins
+
+
+INSERT INTO students (student_name) VALUES ('Alice'),('Bob'),('Charlie'),('David'),('Eve');
+INSERT INTO courses (course_name, fees) VALUES ('Mathematics', 100),('Physics', 120),('Chemistry', 110),('Biology',30),('History', 90);
